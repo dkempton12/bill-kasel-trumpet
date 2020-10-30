@@ -1,0 +1,15 @@
+{
+  "name": "billkasel",
+  "version": "1.0.0",
+  "description": "Client website for professional trumpeter and trumpet instructor, Bill Kasel.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": ["last 1 chrome versions"]
+}
