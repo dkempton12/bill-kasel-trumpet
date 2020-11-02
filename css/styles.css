@@ -106,7 +106,7 @@ p {
   margin-top: 2.5rem;
 }
 .image-medium img {
-  max-width: 320px;
+  max-width: 330px;
   text-align: center;
 }
 .image-medium figcaption {
@@ -272,5 +272,12 @@ p {
   .image-medium img {
     max-width: 700px;
     text-align: center;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .container,
+  .grid-4-columns,
+  .image-medium img {
+    max-width: 300px;
   }
 }
